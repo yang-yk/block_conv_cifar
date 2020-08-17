@@ -119,7 +119,7 @@ def convert_model(model,model_input,model_output,model_layer_id):
 
 
 
-
+'''
 #converting model test
 model_name = 'vgg16'
 pretrained = False
@@ -179,4 +179,4 @@ new_model = convert_model(model,model_input,model_output,model_layer_id)
 output = new_model(input)
 #summary(new_model,input_size=(3,224,224))
 print('over')
-
+'''
